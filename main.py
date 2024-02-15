@@ -17,9 +17,9 @@ tweet_prompt = PromptTemplate(template = tweet_template, input_variables = ['num
 # gpt3_model = ChatOpenAI(model_name = "gpt-3.5-turbo-0125")  # use "gpt-4-0125-preview" for GPT-4 model
 
 llama_model = Together(
-    # model="meta-llama/Llama-2-70b-chat-hf",
+    model="meta-llama/Llama-2-70b-chat-hf",
     # model = "mistralai/Mistral-7B-Instruct-v0.2",
-    model = "meta-llama/Llama-2-70b-hf",
+    # model = "meta-llama/Llama-2-70b-hf",
     temperature=0.7,
 )
 
